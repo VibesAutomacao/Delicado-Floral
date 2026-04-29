@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pagamento PIX — Delicado Floral</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="pix-page">
+    <main class="pix-container">
+      <section class="pix-card">
+        <header>
+          <img src="assets/pix-logo.svg" alt="PIX" class="pix-logo" />
+          <h1>Pagamento via PIX</h1>
+        </header>
+
+        <div class="pix-body">
+          <div class="amount">Valor: <strong>R$ 49,90</strong></div>
+
+          <div class="qr-placeholder">
+            <img src="QRCode.png" alt="QR Code do pagamento" />
+          </div>
+
+          <div class="pix-key-row">
+            <label for="pixKey">Chave PIX</label>
+            <div class="pix-key-controls">
+              <input id="pixKey" readonly value="00020126580014BR.GOV.BCB.PIX01367379b508-ac54-426a-ae5c-116eaa20fd9e520400005303986540549.905802BR5901N6001C62180514DelicadoFloral6304AB44" />
+              <button id="copyKey" class="btn">Copiar</button>
+            </div>
+          </div>
+
+          <p class="pix-instructions">Use o QR Code ou copie a chave para efetuar o pagamento no aplicativo do seu banco. Esta página foi aberta em nova aba para facilitar o pagamento.</p>
+
+          <p class="small" style="margin-top:.6rem">Para confirmação de pagamento, envie o comprovante por e-mail para <a href="mailto:ltdacomerce@gmail.com">ltdacomerce@gmail.com</a>. Este e-mail é exclusivo para confirmações de pagamento, caso o pagamento não seja identificado — por favor anexe o comprovante.</p>
+
+          <div class="actions">
+            <button id="done" class="btn btn-buy">Já paguei</button>
+            <a href="index.html" class="btn btn-outline">Voltar à loja</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
